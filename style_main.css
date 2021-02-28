@@ -1,0 +1,12 @@
+.container-fluid {
+  padding: 0px !important; }
+
+.calculator {
+  position: relative;
+  background: black;
+  width: 100%; }
+
+.no-margins {
+  margin: 0px !important; }
+
+/*# sourceMappingURL=style_main.css.map */
