@@ -11,4 +11,18 @@ window.onload = function () {
     else if (op === '*') {mul(x, y)}
     else if (op === '/') {div(x, y)}
 
+    addButtonListeners();
+
+}
+
+function addButtonListeners() {
+  let buttonNodes = document.querySelectorAll("button");
+  for (let i = 0; i < buttonNodes.length; i++) {
+    let buttonNode = buttonNodes[i];
+    buttonNode.addEventListener("click", buttonCallback);
+  }
+}
+
+function buttonCallback() {
+  alert("clicked!");
 }
