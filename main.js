@@ -11,8 +11,4 @@ window.onload = function () {
     else if (op === '*') {mul(x, y)}
     else if (op === '/') {div(x, y)}
 
-
-
-
-
 }
